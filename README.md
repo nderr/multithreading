@@ -12,7 +12,7 @@ In this repository, you'll find sample scripts illustrating concepts from the In
     - t, the number of threads to parallelize over
 - C++
     - running "make" will generate the executable __./mat_mul__ representing the C++ implementation.
-    - if you are running on a Mac, you will need to install a C++ compiler (preferably gcc10) with OpenMP support from [https://macports.org](MacPorts) or [https://brew.sh](Homebrew). There is a tutorial [here](http://www.mathcancer.org/blog/setting-up-gcc-openmp-on-osx-homebrew-edition/).
+    - if you are running on a Mac, you will need to install a C++ compiler (preferably gcc10) with OpenMP support from [MacPorts](https://macports.org) or [Homebrew](https://brew.sh). There is a tutorial [here](http://www.mathcancer.org/blog/setting-up-gcc-openmp-on-osx-homebrew-edition/).
         - After install, run __cp ./.Makefile.hb Makefile.hb__ or __cp ./.Makefile.mp Makefile.mp__ depending on which one you installed. I should have the Makefile set up to work after that; if it's still not compiling, let me know.
     - If you are running on Linux, the default Gnu compiler will work out of the box.
     - to run the C++ implementation, call __./mat_mul N t__.
