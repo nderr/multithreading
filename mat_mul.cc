@@ -57,6 +57,7 @@ int main(int argc,char** argv) {
 	double *M = new double[N*N];
 
 	// fill vectors/matrix with random values
+#pragma omp parallel for num_threads(nt)
 	for(int i=0;i<N;i++) {
 		w[i] = 0;
 		v[i] = dist(rng);
